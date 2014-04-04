@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
 
+@interface MasterViewController : UITableViewController{
+    NSMutableArray *arrData;
+    UITableView *tblView;
+}
+
+@property (strong, nonatomic)IBOutlet UITableView *tblView;
 @end
